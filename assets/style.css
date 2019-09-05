@@ -16,7 +16,11 @@ nav.navbar {
 }
 
 div.bg-1 {
-  background-image: url("img/hacker.jpg");
+  background-image: url("img/perfil.jpg");
+  padding-top: 350px;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
 }
 
 p {font-size: 16px;}
@@ -36,12 +40,12 @@ p {font-size: 16px;}
   color: #fff;
 }
 .container-fluid {
-  padding-top: 70px;
-  padding-bottom: 70px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 .navbar {
-  padding-top: 15px;
-  padding-bottom: 15px;
+/*  padding-top: 5px;
+  padding-bottom: 5px; */
   border: 0;
   border-radius: 0;
   margin-bottom: 0;
