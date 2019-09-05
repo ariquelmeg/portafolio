@@ -11,13 +11,13 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800" rel="stylesheet">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-	<link rel="stylesheet" href="assets/style.css">
+	<link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 
 <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">A</a>
+    <a class="navbar-brand" href="#">Álvaro Riquelme</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -66,30 +66,71 @@
   <h3 class="margin">Trabajos</h3><br>
   <div class="row">
     <div class="col-sm-4">
-      <p>Cuppon</p>
+      <h4>Cuppon</h4>
       <img src="assets/img/cuppon.png" class="img-responsive margin" style="width:100%" alt="Image">
+      <!-- Button trigger modal -->
+      <button type="button" class="btn btn-secondary btn-sm" data-toggle="modal" data-target="#myModal">
+      Detalles
+      </button>
     </div>
     <div class="col-sm-4">
-      <p>DMark</p>
+      <h4>DMark</h4>
       <img src="assets/img/dmark.png" class="img-responsive margin" style="width:100%" alt="Image">
+      <!-- Button trigger modal -->
+      <button type="button" class="btn btn-secondary btn-sm" data-toggle="modal" data-target="#myModal">
+      Detalles
+      </button>
     </div>
     <div class="col-sm-4">
-      <p>Iguana Page</p>
+      <h4>Iguana Page</h4>
       <img src="assets/img/iguana_page.png" class="img-responsive margin" style="width:100%" alt="Image">
+      <!-- Button trigger modal -->
+      <button type="button" class="btn btn-secondary btn-sm" data-toggle="modal" data-target="#myModal">
+      Detalles
+      </button>
     </div>
     <div class="row">
       <div class="col-sm-4">
-        <p>Meet Coffee</p>
+        <h4>Meet Coffee</h4>
         <img src="assets/img/meet_coffee.png" class="img-responsive margin" style="width:100%" alt="Image">
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-secondary btn-sm" data-toggle="modal" data-target="#myModal">
+        Detalles
+        </button>
       </div>
       <div class="col-sm-4">
-        <p>Ricomida</p>
+        <h4>Ricomida</h4>
         <img src="assets/img/ricomida.png" class="img-responsive margin" style="width:100%" alt="Image">
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-secondary btn-sm" data-toggle="modal" data-target="#myModal">
+        Detalles
+        </button>
       </div>
       <div class="col-sm-4">
-        <p>Suricata</p>
+        <h4>Suricata</h4>
         <img src="assets/img/suricata.png" class="img-responsive margin" style="width:100%" alt="Image">
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-secondary btn-sm" data-toggle="modal" data-target="#myModal">
+        Detalles
+        </button>
       </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Detalles</h4>
+      </div>
+      <div class="modal-body">
+        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
   </div>
 </div>
 
@@ -100,10 +141,11 @@
 
 <!-- Footer -->
 <footer class="container-fluid bg-4 text-center">
-<i class="fab fa-facebook-square fa-3x"></i>
-<i class="fab fa-twitter-square fa-3x"></i>
-<i class="fab fa-instagram fa-3x"></i>
-<i class="fab fa-linkedin fa-3x"></i>
+<h4>Mis redes sociales</h4>
+<a href="https://www.facebook.com/alvaroriquelme"><i class="fab fa-facebook-square fa-3x"></i></a>
+<a href="https://twitter.com/alvriquelmeg"><i class="fab fa-twitter-square fa-3x"></i></a>
+<a href="https://www.instagram.com/alvriquelmeg/"><i class="fab fa-instagram fa-3x"></i></a>
+<a href="https://www.linkedin.com/alvaroriquelme"><i class="fab fa-linkedin fa-3x"></i></a>
 </footer>
 
 </body>
