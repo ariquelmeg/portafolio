@@ -1,19 +1,26 @@
 body {
-  font: 20px Montserrat, sans-serif;
+  font: 20px , sans-serif;
   line-height: 1.8;
   color: #f5f6f7;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 nav.navbar {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 1;
+}
+
+div.bg-1 {
+  background-image: url("img/hacker.jpg");
 }
 
 p {font-size: 16px;}
-.margin {margin-bottom: 45px;}
 .bg-1 {
-  background-color: #1abc9c; /* Green */
   color: #ffffff;
 }
 .bg-2 {
@@ -40,6 +47,7 @@ p {font-size: 16px;}
   margin-bottom: 0;
   font-size: 12px;
   letter-spacing: 5px;
+  color: #ffffff
 }
 .navbar-nav  li a:hover {
   color: #1abc9c !important;
